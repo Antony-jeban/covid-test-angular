@@ -1,0 +1,47 @@
+export interface ZoneInfo {
+    district: string,
+    source: string,
+    state: string,
+    zone: string,
+    updatedTime: string
+}
+
+export interface ZoneMainInfo {
+    AN: ZoneInfo[],
+    AP: ZoneInfo[],
+    AR: ZoneInfo[],
+    AS: ZoneInfo[],
+    BR: ZoneInfo[],
+    CH: ZoneInfo[],
+    CT: ZoneInfo[],
+    DL: ZoneInfo[],
+    DN: ZoneInfo[],
+    GA: ZoneInfo[],
+    GJ: ZoneInfo[],
+    HP: ZoneInfo[],
+    HR: ZoneInfo[],
+    JH: ZoneInfo[],
+    JK: ZoneInfo[],
+    KA: ZoneInfo[],
+    KL: ZoneInfo[],
+    LA: ZoneInfo[],
+    LD: ZoneInfo[],
+    MH: ZoneInfo[],
+    ML: ZoneInfo[],
+    MN: ZoneInfo[],
+    MP: ZoneInfo[],
+    MZ: ZoneInfo[],
+    NL: ZoneInfo[],
+    OR: ZoneInfo[],
+    PB: ZoneInfo[],
+    PY: ZoneInfo[],
+    RJ: ZoneInfo[],
+    SK: ZoneInfo[],
+    TG: ZoneInfo[],
+    TN: ZoneInfo[],
+    TR: ZoneInfo[],
+    UP: ZoneInfo[],
+    UT: ZoneInfo[],
+    WB: ZoneInfo[]
+
+}
